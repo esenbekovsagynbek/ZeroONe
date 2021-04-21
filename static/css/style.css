@@ -1,15 +1,53 @@
-h5, p {
-    color: #fff;
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0.3rem 1.8rem;
 }
 
-.carousel .carousel-item {
-  height: 800px;
+.nav-link {
+  padding: 0.3rem 1rem;
+  margin-right: 20px; 
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.carousel-item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 800px;
+.nav-link:hover {
+  border: 2px solid #00D5D5;
+  border-radius: 60px;
+}
+.active {
+  border: 2px solid #00D5D5;
+  border-radius: 60px;
+}
+.header-title{
+  font-size: 50px;
+  font-weight: 700px;
+  margin-bottom: 40px;
+
+
+}
+.header-description{
+  font-size: 24px;
+}
+.gradient-bg {
+  background: #00D5D5;
+  margin-top: 58px;
+  padding: 17.5px 0;
+}
+
+.btn-light {
+background-color: #fff;
+border-radius: 50px;
+font: inherit;
+font-size: 24px;
+padding:0.5rem 1.5rem ;
+text-transform: uppercase;
+
+
+}
+.gradient-title{
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
 }
