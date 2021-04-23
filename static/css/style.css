@@ -1,15 +1,114 @@
-h5, p {
-    color: #fff;
+body {
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
 }
 
-.carousel .carousel-item {
-  height: 800px;
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.3rem 1.8rem;
 }
 
-.carousel-item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 800px;
+.nav-link {
+    /*padding: 0.3rem 1rem;*/
+    margin-right: 2px;
+    font-weight: 500;
+    font-size: 20px;
 }
+
+.nav-link:hover {
+    border: 2px solid #00D5D5;
+    border-radius: 60px;
+}
+
+.active {
+    border: 2px solid #00D5D5;
+    border-radius: 60px;
+}
+
+.header-title {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.header-description {
+    font-size: 24px;
+}
+
+.row.gradient-bg {
+    margin-top: 40px;
+    background-color: #00D3D3;
+    padding: 17.5px 0;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-light {
+    background: #fff;
+    border-radius: 50px;
+    font: inherit;
+    font-size: 24px;
+    padding: .7rem 3rem;
+}
+
+/*block courses*/
+.course-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cards {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 213, 213, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    margin-top: 70px;
+}
+
+.card {
+    border-color: #fff;
+    border-radius: 20px !important;
+}
+
+.card-title {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 28px;
+}
+
+.text-month {
+    font-weight: inherit;
+    color: #00D3D3;
+}
+
+.btn.btn-primary.register {
+    font-size: 14px;
+    padding: .5rem 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #00D5D5;
+    border-color: #00D5D5;
+
+}
+
+/*block courses*/
+
+/*block about us*/
+.about-us-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.card-title.about {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card-text.about {
+    font-size: 14px;
+}
+
+.row.second-row {
+    margin-top: 100px;
+}
+
+/*block about us*/
