@@ -8,6 +8,7 @@ class Courses(models.Model):
     image = models.ImageField("Изображение", upload_to="images/")
     price = models.PositiveIntegerField("Стоимость", default=7000,
                                         help_text="указывать сумму в сомах")
+    draft = models.BooleanField("Черновик", default=False)
 
     def __str__(self):
         return self.name
