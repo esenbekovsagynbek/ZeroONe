@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+<!-- header block-->
+<div class="container-fluid mt-5">
+    <div class="row align-items-center ">
+        <div class="col-7" style="background-color: #0258BC; color: white;">
+            <h2 class="header-title">{{ course.name }}</h2>
+            <h4>Язык программирования</h4>
+            <p class="header-description">{{ course.description }}</p>
+        </div>
+        <div class="col-5" style="background-color: #FFE600;">
+            <img class="float-end" src="" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="row gradient-bg align-items-center">
+    <div class="col-6 d-flex justify-content-center">
+        <h3 class="text-sale animate__animated animate__fadeInLeft">Распродажа знаний!</h3>
+    </div>
+    <div class="col-6 d-flex justify-content-center">
+        <button type="button" class="btn btn-light">ВЫБРАТЬ КУРС</button>
+    </div>
+</div>
+<!-- header block-->
+
+{% endblock content %}

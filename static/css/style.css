@@ -2,6 +2,11 @@ body {
     font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
 }
 
+a {
+    cursor: pointer;
+}
+
+/*navbar block*/
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0.3rem 1.8rem;
 }
@@ -47,6 +52,10 @@ body {
     font: inherit;
     font-size: 24px;
     padding: .7rem 3rem;
+}
+
+div.bg-light {
+    background-color: #fff !important;
 }
 
 /*block courses*/
